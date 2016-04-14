@@ -16,8 +16,8 @@ sim = 0;
 %
 %
 
-
-
+D = (x1 -x2).^2;
+sim = exp(-sum(D)/(2*sigma^2));
 
 
 
